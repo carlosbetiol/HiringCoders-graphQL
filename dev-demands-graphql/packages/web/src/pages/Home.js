@@ -1,5 +1,8 @@
 import React from 'react';
+import { ClientList } from '../components/ClientList';
 
 export default function Home() {
-    return <h1>Home</h1>;
+    return (
+        <ClientList />
+    );
 }
