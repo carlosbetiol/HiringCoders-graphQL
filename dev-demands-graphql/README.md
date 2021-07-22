@@ -26,4 +26,8 @@ pnpm i apollo-link apollo-link-context apollo-link-error apollo-link-http --filt
 pnpm i apollo-client graphql graphql-tag react-apollo --filter @dev-demands/web
 pnpm i apollo-cache-inmemory --filter @dev-demands/web
 (comando acima depende do cache que se utiliza no client)
+
+Para rodar o client:
+pnpm run start --filter @dev-demands/web
+
 ```
